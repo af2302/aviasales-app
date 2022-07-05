@@ -1,0 +1,29 @@
+.container{
+    display: block;
+    max-width: 500px;
+    min-width: 320px;
+    min-height: 184px;
+    width: 100%;
+    margin-left: auto;
+    margin-top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    padding:  20px;
+}
+
+.price{
+    margin-right: auto;
+}
+
+.gridtable{
+    display: grid;
+    grid-template-rows: 39px 39px;
+    grid-template-columns: 33% 33% 33%;
+    margin: 0 20px ;
+}
