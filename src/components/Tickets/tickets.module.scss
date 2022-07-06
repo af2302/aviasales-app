@@ -19,11 +19,20 @@
 
 .price{
     margin-right: auto;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #2196F3;
 }
 
 .gridtable{
     display: grid;
-    grid-template-rows: 39px 39px;
+    grid-template-rows: 39px;
     grid-template-columns: 33% 33% 33%;
-    margin: 0 20px ;
+    margin: 10px 0;
+    gap: 20px;
+}
+
+.grid__container{
+    padding: 0 20px;
 }
