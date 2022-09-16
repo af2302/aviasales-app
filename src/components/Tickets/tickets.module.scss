@@ -1,15 +1,31 @@
 .container{
     display: block;
-    max-width: 500px;
-    min-width: 320px;
-    min-height: 184px;
-    width: 100%;
-    margin-left: auto;
+    width: 500px;
+    min-width: none;
+    height: 184px;
     margin-top: 20px;
     background: #FFFFFF;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    box-sizing: border-box;
+}
+
+.gray__text{
+    color: #A0B0B9;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.data{
+    color: #4A4A4A;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 .header{
